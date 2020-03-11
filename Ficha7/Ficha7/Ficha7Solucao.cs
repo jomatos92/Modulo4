@@ -69,18 +69,18 @@ namespace Ficha7
             Console.WriteLine("Diga um número: ");
             num = int.Parse(Console.ReadLine());
 
-            if (num % 3 == 0 && num % 3 == 0)
+            if(num % 3 == 0 && num % 3 == 0)
             {
                 Console.WriteLine("É múltiplo de 3 e 7 ");
             }
-            else if (num % 3 == 0)
+            else if( num % 3 == 0)
             {
                 Console.WriteLine("É múltiplo apenas de 3");
             }
-            else if (num % 7 == 0)
+            else if( num % 7 == 0)
             {
                 Console.WriteLine("É múltiplo apenas de 7");
-
+               
             }
             else
             {
@@ -88,11 +88,11 @@ namespace Ficha7
                 Console.ReadKey();
             }
 
+            
 
+          
 
-
-
-
+            
         }
         #endregion
 
@@ -125,9 +125,9 @@ namespace Ficha7
 
 
 
+    
 
-
-        }
+}
         #endregion
 
         public static void Exercise5()
@@ -154,33 +154,24 @@ namespace Ficha7
         {
             int num;
             Console.WriteLine("Diga o andar: ");
-            num = int.Parse(Console.ReadLine());
+            num= int.Parse(Console.ReadLine());
 
-            if (num == 3 || num == 5)
+           if(num == 3 || num == 5)
             {
                 Console.WriteLine("Piso indispnível");
             }
-            else if (num == -2 || num == -1 || num == 0 || num == 1 || num == 2 || num == 4 || num == 6)
+           else if(num == -2 || num == -1 || num== 0 || num==1 || num == 2 || num == 4 || num == 6)
             {
                 Console.WriteLine("Piso Disponivel");
             }
             else
             {
                 Console.WriteLine("Piso não existe");
-
-
-
             }
+                
+
+           
             
-
-        }
-        public static void Exercicio7()
-        {
-            double num;
-
-            Console.WriteLine("Insira um número: ");
-            num = int.Parse(Console.ReadLine());
-
 
 
         }
