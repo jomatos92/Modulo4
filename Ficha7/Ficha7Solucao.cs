@@ -152,13 +152,23 @@ namespace Ficha7
         }
         public static void Exercise6()
         {
+            int num;
             Console.WriteLine("Diga o andar: ");
-            int floor = int.Parse(Console.ReadLine());
-             if ((floor >= -2 && floor < 6) == true)
+            num= int.Parse(Console.ReadLine());
+
+           if(num == 3 || num == 5)
             {
-                Console.WriteLine("Piso disponivel");
-                Console.ReadLine();
+                Console.WriteLine("Piso indispnível");
             }
+           else if(num == -2 || num == -1 || num== 0 || num==1 || num == 2 || num == 4 || num == 6)
+            {
+                Console.WriteLine("Piso Disponivel");
+            }
+            else
+            {
+                Console.WriteLine("Piso não existe");
+            }
+                
 
            
             
